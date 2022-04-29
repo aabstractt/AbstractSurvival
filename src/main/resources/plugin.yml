@@ -1,0 +1,41 @@
+name: AbstractSurvival
+version: 1.0
+author: Abstract
+main: dev.thatsmybaby.survival.Survival
+api-version: 1.18
+
+commands:
+  sethome:
+    description: Set a home position
+  home:
+    description: Go to a specify home
+  delhome:
+    description: Delete a home
+  homes:
+    description: Homes
+
+  setwarp:
+    description: Warp
+  warp:
+    description: Warp
+  delwarp:
+    description: DelWarp
+
+  tpa:
+    description: Send a tpa request
+  tpaccept:
+    description: Accept a tpa request
+  tpadeny:
+    description: Deny a tpa request
+  tp:
+    description: Teleport to a target
+
+  message:
+    description: Send a private message
+    aliases: [tell, w, msg]
+  reply:
+    description: Reply to the last message received
+    aliases: [r]
+
+  invsee:
+    description: 'InvSee'

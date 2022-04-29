@@ -1,0 +1,21 @@
+Mongo:
+  Host: 127.0.0.1
+  Port: 27017
+  Database: 'Survival'
+  Auth:
+    Enabled: false
+    Username: ''
+    Password: ''
+    Database: 'admin'
+redis:
+  host: 127.0.0.1
+  password: ''
+
+server-name: "Survival1"
+
+chat-settings:
+  format: '&5[<server>] &7<player-name> &8» &f<message>'
+
+general:
+  teleport_time: 5
+  tpa-timeout: 5
